@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      lineHeight: {
+        '15': '4rem'
+      }
+    },
   },
   variants: {
     extend: {},
