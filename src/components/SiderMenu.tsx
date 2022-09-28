@@ -95,7 +95,7 @@ const SiderMenu = ({menus, ...props}: SiderMenuProps) => {
                                                     <Menu {...props}>
                                                         {
                                                             item.subs
-                                                            ? renderSunMenu(item)
+                                                            ? renderSubMenu(item)
                                                             : renderMenuItem(item)
                                                         }
                                                     </Menu>

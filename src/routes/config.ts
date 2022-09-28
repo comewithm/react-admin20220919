@@ -7,6 +7,7 @@ export interface IFMenuBase {
     query?:string
     requireAuth?:string
     login?:boolean
+    route?:string
 }
 
 export interface IFMenu extends IFMenuBase {

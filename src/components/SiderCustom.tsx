@@ -60,7 +60,7 @@ const SiderCustom = (props:SiderCustomProps) => {
         >
             <div className="logo" />
             <SiderMenu
-                menus={[...routes.menus]}
+                menus={[...routes.menus, layout]}
                 mode='inline'
                 onClick={menuClick}
                 selectedKeys={[menu.selectedKey]}
